@@ -6,7 +6,7 @@
 - the example of tree algorithm
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/43362326/230756753-970637e8-21ab-43a1-8871-ff1a541b7efc.png" width="30%" height="30%">
+  <img src="https://user-images.githubusercontent.com/43362326/230756753-970637e8-21ab-43a1-8871-ff1a541b7efc.png" width="50%" height="50%">
 </p>
 
 
