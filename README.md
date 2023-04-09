@@ -5,7 +5,10 @@
 - tree algorithm is composed of function sets and terminal sets
 - the example of tree algorithm
 
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/43362326/230756753-970637e8-21ab-43a1-8871-ff1a541b7efc.png
+">
+</p>
 
 
 ## train.py
