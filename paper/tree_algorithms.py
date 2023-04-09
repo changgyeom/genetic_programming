@@ -3,7 +3,6 @@ import numpy as np
 import random
 import gc
 import multiprocessing
-
     
 class node(object):
     
@@ -463,8 +462,7 @@ class Algorithm(object):
                 else:
                     left = Calc(node.left)
                     right = node.right
-                    return inst(left, right, data, calc_num_processes)
-            
+                    return inst(left, right, data, calc_num_processes)            
 
         # rebalancing and calculate the profit
         
@@ -482,8 +480,7 @@ class Algorithm(object):
             day_return = np.sum(weight * (group_df['nextC1/C'].to_numpy()-1))
             day_returns.append(day_return)
             num_day_signals.append(len(group_df))
-        data.drop(columns=['signal'], inplace=True)
-        
+        data.drop(columns=['signal'], inplace=True)        
             
         return day_returns, num_day_signals
     

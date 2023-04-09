@@ -9,7 +9,6 @@ import multiprocessing.pool
 import pickle
 import argparse
 
-
 def str2bool(v):
     if isinstance(v, bool):
         return v
@@ -197,10 +196,8 @@ def train(algorithms, data, start_date, filename, generation, N, k, max_height, 
         
     return algorithms
 
-
         
-if __name__ == "__main__":
-    
+if __name__ == "__main__":    
     
     parser = argparse.ArgumentParser()
     parser.add_argument('--init', help='proceed init algorithms', required=True, type=str2bool) 
@@ -281,8 +278,7 @@ if __name__ == "__main__":
         # using saved trees
         with open('./save_algorithms/'+init_filename, 'rb') as f:
             init_algorithms=pickle.load(f)
-    
-    
+        
     # train with init algorithms
     print('train start / calc num processes : {}'.format(calc_num_processes))
     algorithms = copy.deepcopy(init_algorithms)
