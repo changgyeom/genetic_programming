@@ -21,10 +21,9 @@
 1. init tree algorithms
 2. evaluate tree algorithms
 <p>
-  <div class = Insertcode>
-    <img src="https://user-images.githubusercontent.com/43362326/230757435-5577adc2-32cc-4231-819f-1fd9cc3aa248.png" width="30%" height="30%">
-  </div>
-
+<div class = Insertcode>
+<img src="https://user-images.githubusercontent.com/43362326/230757435-5577adc2-32cc-4231-819f-1fd9cc3aa248.png" width="30%" height="30%">
+</div>
 3. make new generation
   - selection
   - subtree crossover
