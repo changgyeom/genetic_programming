@@ -27,7 +27,7 @@
   - replace
 4. repeat 2, 3 until satisfying terminal condition
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/43362326/230757035-425f476f-9d33-4023-978d-2adac766e53d.png" width="50%" height="50%">
+  <img src="https://user-images.githubusercontent.com/43362326/230757035-425f476f-9d33-4023-978d-2adac766e53d.png" width="70%" height="70%">
 </p>
 
 
