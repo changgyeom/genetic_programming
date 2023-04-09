@@ -20,7 +20,7 @@
 
 1. init tree algorithms
 2. evaluate tree algorithms
-3. Make new generation
+3. make new generation
   - selection
   - crossover
   - mutation
