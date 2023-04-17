@@ -35,10 +35,10 @@
   - N : the number of chromosomes
   - k : the number of replaced chromosomes in one cycle
   - init_max_h : the max height of initial chromosomes
-  - train_max_h : the max height of chromosomes in training cycle
-  - num_processes : the number of using cpu
-  - sub_num_processes : the number of using cpu when calculating the values of initial chromosomes
-  - calc_num_processes : the number of using cpu when calculating the values of chromosomes in training cycle
+  - train_max_h : the max height of chromosomes in the training cycle
+  - num_processes : the number of using CPUs
+  - sub_num_processes : the number of using CPUs when calculating the values of initial chromosomes
+  - calc_num_processes : the number of using CPUs when calculating the values of chromosomes in the training cycle
   - exp_num : the prefix of saved file name
 - command example
 ```
