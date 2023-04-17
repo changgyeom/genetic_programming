@@ -39,7 +39,12 @@
   - num_processes : the number of using cpu
   - exp_num : the prefix of saved file name
 
+'''
+
   python3 train.py --init=True --start_date=20100000 --end_date=20130000 --N=5000 --k=200 --init_max_h=4 --train_max_h=8 --num_processes=10 --exp_num=1_1_
+  
+'''
+  
   
   
 
