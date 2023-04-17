@@ -31,7 +31,7 @@
 - train tree algorithms using genetic programming
 - argument information 
   - init : make new initial chromosomes
-  - start_date, end_date : period of training data
+  - start_date, end_date : period of training data (yyyymmdd)
   - N : the number of chromosomes
   - k : the number of replaced chromosomes in one cycle
   - init_max_h : the max height of initial chromosomes
