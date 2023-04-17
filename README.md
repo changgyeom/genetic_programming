@@ -29,7 +29,18 @@
 ## train.py
 - make tree algorithms 
 - train tree algorithms using genetic programming
+- cmd example
+  - init : make new initial chromosomes
+  - start_date, end_date : period of training data
+  - N : the number of chromosomes
+  - k : the number of replaced chromosomes in one cycle
+  - init_max_h : the max height of initial chromosomes
+  - train_max_h : the max height of chromosomes in training cycle
+  - num_processes : the number of using cpu
+  - exp_num : the prefix of saved file name
 
-
+  python3 train.py --init=True --start_date=20100000 --end_date=20130000 --N=5000 --k=200 --init_max_h=4 --train_max_h=8 --num_processes=10 --exp_num=1_1_
+  
+  
 
 
